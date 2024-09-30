@@ -1,0 +1,93 @@
+* {
+  background-color:  black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace
+}
+input [type = "task"] {
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+#taskdone {
+  display: inline-block;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.highestCont {
+  width: 75%;
+  border: 2px solid rgba(255, 255, 255, 0.4);;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  align-items: center;
+}
+.task {
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+}
+.delBtn {
+  align-self: flex-end;
+}
+h1,h2 {
+  /* text-align: center; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.bgBtn {
+  border: 0.5px solid white;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#delBtn:hover {
+background-color: red;
+color: white;
+border: 0.5px solid black;
+}
+hr {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.divBtn {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  border: 2px solid white;
+  align-self: center;
+  cursor: pointer;
+}
+.taskStatus {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.taskCount {
+  color: red;
+  font-size: 30px;
+}
+.bgBtn:hover {
+background-color: white;
+color: black;
+}
+span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+label {
+  margin-left: 10px;
+}
